@@ -1,0 +1,40 @@
+.main {
+  position: absolute;
+  top: 25%;
+  display: flex;
+  flex-direction: column;
+}
+.tile-container {
+  margin-bottom: 3px;
+}
+.tile {
+  width: 50px;
+  height: 50px;
+  background: whitesmoke;
+}
+.tile#first[data-state='true'] {
+  background: lightseagreen;
+}
+
+.tile#second[data-state='true'] {
+  background: rebeccapurple;
+}
+
+.tile#third[data-state='true'] {
+  background: cornflowerblue;
+}
+
+.tile#fourth[data-state='true'] {
+  background: chocolate;
+}
+
+#generate {
+  height: 25px;
+}
+
+canvas {
+  position: absolute;
+  right: 300px;
+  border: 1px solid black;
+  display: none;
+}

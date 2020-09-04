@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="tile-container">
+        <button
+          class="tile"
+          id="first"
+          data-state="false"
+          onclick="setTileState(this)"
+        ></button>
+        <button
+          class="tile"
+          id="second"
+          data-state="false"
+          onclick="setTileState(this)"
+        ></button>
+      </div>
+      <div class="tile-container">
+        <button
+          class="tile"
+          id="third"
+          data-state="false"
+          onclick="setTileState(this)"
+        ></button>
+        <button
+          class="tile"
+          id="fourth"
+          data-state="false"
+          onclick="setTileState(this)"
+        ></button>
+        <button id="generate">GENERATE</button>
+      </div>
+    </div>
+
+    <canvas id="c1" width="600" height="300"></canvas>
+    <script src="./script.js"></script>
+  </body>
+</html>
